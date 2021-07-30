@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* ------------------------------ MAIN STYLES FOR PAGES ------------------------------ */
+* { margin: 0; padding: 0; outline: 0; }
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    color: #333;
+}
+
+/* SIMPLE STYLES */
+img { max-width: 100%; }
+
+/* ------------------------------ MAIN ELEMENTS' STYLES ------------------------------ */
+.q-link { color: #7fd0e0; text-decoration: none; transition: all 600ms ease; }
+.q-link:hover { text-decoration: underline; transition: all 600ms ease; }
+
+.q-nav-link { color: #000000; text-decoration: none; transition: all 600ms ease; font-size: 1.2em; }
+.q-nav-link:hover { color: #6c757d; transition: all 600ms ease; }
+
+.q-ll { color: #000000; text-decoration: none; transition: all 600ms ease; }
+.q-ll:hover { color: #2c3034; transition: all 600ms ease; }
+
+.q-btn { color: #fff; background: #FE4C3D; border-radius: 4px; font-size: 1.2em; padding: 13px; text-decoration: none; border: none; transition: all 600ms ease; cursor: pointer; }
+.q-btn:hover { transition: all 600ms ease; transform: scale(1.02) translateY(-5px); box-shadow: 0 10px 20px -2px rgba(0, 0, 0, 0.3); }
+
+.q-btn-sm { color: #fff; background: #FE4C3D; border-radius: 4px; padding: 5px 15px; text-decoration: none; border: none; transition: all 600ms ease; cursor: pointer; }
+.q-btn-sm:hover { transition: all 600ms ease; transform: scale(1.02) translateY(-5px); box-shadow: 0 10px 20px -2px rgba(0, 0, 0, 0.3); }
+
+/* ------------------------------ BLOCKS' STYLES ------------------------------ */
+.q-logo-wrap { width: 150px; height: 150px; }
+.q-logo { width: 150px; height: 150px; }
+.q-logo-text { width: 360px; }
+
+.main-title { font-size: 6em; font-weight: 700; }
+
+ul { list-style: none; padding-left: 0; }
+li { margin-left: 20px; }
+li:first-of-type { margin-left: 0; }
+
+@media (max-width: 518px) {
+    .q-last-li { margin-left: 0; }
+}
+
+.main-title { text-shadow: 1px 1px 2px black; }
+
+input { box-sizing: border-box; border: 1px solid #868686; border-radius: 5px; padding: 15px; }
+input:focus { border: 1px solid #FE4C3D; }
+.error { color: #FE4C3D; font-weight: 700; }
+.success { color: limegreen; font-weight: 700; }
+
+.q-link-block { background: #DCDCDC; border-radius: 5px; }
+
+textarea { resize: none; box-sizing: border-box; border: 1px solid #868686; border-radius: 5px; padding: 15px; }
+textarea:focus { border: 1px solid #FE4C3D; }
+
+footer { background: #2D2C2D; /*position: fixed; bottom: 0;*/ }
+.in-footer > .social > a > i { display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 50%; background: silver; margin-left: 5px; cursor: pointer; color: #333; transition: all 600ms ease; }
+.in-footer > .social > a > i:hover { transition: all 600ms ease; transform: translateY(-5px); }
+
+/* ------------------------------ COLOURS ------------------------------
+    buttons: #FE4C3D
+    links: #A5BDCA
+*/
